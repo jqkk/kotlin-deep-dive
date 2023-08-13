@@ -1,4 +1,4 @@
-package basic.chapter02
+package basic.chapter03
 
 //fun foo(): Unit {
 fun foo() {
@@ -27,8 +27,6 @@ fun main(args: Array<String>) {
 
     val lambdaFunction = {args1: String, args2: String -> args1 + args2 }
 
-    println({x: Int, y: Int -> x * x * y}(1,2))
-
-
+//    println({x: Int, y: Int -> x * x * y}(1,2))
 
 }
