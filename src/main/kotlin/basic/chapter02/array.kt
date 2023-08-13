@@ -8,6 +8,9 @@ fun main(args: Array<String>) {
     for(i in sampleArray)
         println(i)
 
+    println("Array size: ${sampleArray.size}")
+    println(20 in sampleArray)
+
     val sampleArray2 = arrayOfNulls<Int>(10)
     println(sampleArray2.joinToString())
 
