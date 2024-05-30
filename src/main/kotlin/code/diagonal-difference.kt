@@ -11,8 +11,7 @@ val diagonalDifference = { arr: Array<Array<Int>> ->
 fun main() {
     val n = readln().trim().toInt()
 
-    val arr = Array(n) { Array<Int>(n) { 0 } }.map { readln().trim().split(" ").map { it.toInt() }.toTypedArray() }
-        .toTypedArray()
+    val arr = Array(n) { Array(n) { 0 } }.map { readln().trim().split(" ").map { it.toInt() }.toTypedArray() }.toTypedArray()
 
     val result = diagonalDifference(arr)
 
