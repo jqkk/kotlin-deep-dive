@@ -4,7 +4,7 @@ package code.programmers
 import kotlin.math.sqrt
 
 fun solution(left: Int, right: Int): Int {
-    return (left..right).toList().toIntArray()
+    return (left..right)
         .reduce { acc, i -> if (sqrt(i.toDouble()).let { it == it.toInt().toDouble() }) acc - i else acc + i }
 }
 
