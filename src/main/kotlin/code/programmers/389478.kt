@@ -7,7 +7,7 @@ fun getBoxPosition(boxCount: Int, boxWidth: Int) = if (boxCount % boxWidth == 0)
 
 fun getIsSameBoxDirection(lastBoxFloor: Int, targetBoxFloor: Int) = lastBoxFloor % 2 == targetBoxFloor % 2
 
-fun solution(n: Int, w: Int, num: Int): Int {
+private fun solution(n: Int, w: Int, num: Int): Int {
     // n : 놓은 상자의 총 개수
     // w : 상자의 가로
     // num : 꺼내려는 상자 번호
