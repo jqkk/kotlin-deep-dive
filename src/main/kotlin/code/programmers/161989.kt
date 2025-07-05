@@ -1,7 +1,7 @@
 // https://school.programmers.co.kr/learn/courses/30/lessons/161989
 package code.programmers
 
-fun solution(n: Int, m: Int, section: IntArray): Int {
+private fun solution(n: Int, m: Int, section: IntArray): Int {
     val paintArray = booleanArrayOf(
         *BooleanArray(n) { true }
     )
