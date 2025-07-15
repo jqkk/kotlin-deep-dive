@@ -1,7 +1,7 @@
 // https://school.programmers.co.kr/learn/courses/30/lessons/142086
 package code.programmers
 
-fun solution(s: String): IntArray {
+private fun solution(s: String): IntArray {
     val tempList = mutableListOf<Char>()
     val result = IntArray(s.length)
 
